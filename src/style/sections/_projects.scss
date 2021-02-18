@@ -4,6 +4,11 @@
   margin-top: -15rem;
   padding-top: 15rem;
 
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+
+  margin-bottom: -15rem;
+
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
@@ -13,6 +18,7 @@
     margin-bottom: 15rem;
 
     @include respond(phone) {
+      margin-top: 5rem;
       margin-bottom: 0rem;
     }
 

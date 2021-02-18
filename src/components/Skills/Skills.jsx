@@ -23,10 +23,10 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about">
+    <section id="skills">
       <Container>
-        <Title title="About Moi" />
-        <Row className="about-wrapper">
+        <Title title="Future Skills Section" />
+        <Row className="skills-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">

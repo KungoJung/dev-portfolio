@@ -10,9 +10,9 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: "Hi, I'm",
-  name: 'Danny',
+  name: 'Danny.',
   subtitle: "I'm a full stack developer.",
-  cta: '',
+  cta: 'Continue',
 };
 
 // ABOUT DATA
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I like coding and stuff.',
   paragraphTwo: 'I like Meg.',
   paragraphThree: 'I like coffee.',
-  resume: 'https://docs.google.com/document/d/1T5ZNFdhil2YQ2VcKDvU3yzVXCBiUQBUKtZPG7sz2LV0/edit?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1yyUlSIJXTM0JjixNNDW2-MyVVogcyRAQ/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

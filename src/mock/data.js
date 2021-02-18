@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I like coding and stuff.',
+  paragraphTwo: 'I like Meg.',
+  paragraphThree: 'I like coffee.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 

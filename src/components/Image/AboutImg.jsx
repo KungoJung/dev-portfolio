@@ -26,7 +26,7 @@ const AboutImg = ({ filename, alt }) => (
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
       if (!image) {
-        console.log("Image was not found");
+        // console.log("About image was not found");
         return null;
       }
 

@@ -17,14 +17,29 @@ export const heroData = {
 
 // SKILLS DATA
 export const skillsData = {
-  base: 'burger_blank.png',
-  top: 'burger_topbun.png',
-  mid: 'burger_middle.png',
-  bot: 'burger_bottombun.png',
-  intro: '"Apps are like burgers. They\'ve got layers." -- Shrek (maybe)',
-  topSkills: [],
-  midSkills: [],
-  botSkills: [],
+  frontEnd: {
+    title: 'Front End',
+    stacks: ['JavaScript', 'React', 'Redux', 'Mapbox', 'Victory', 'HTML5', 'CSS3'],
+    burger: 'burger_topbun.png',
+  },
+  backEnd: {
+    title: 'Back End',
+    stacks: ['Node', 'Express', 'Sequelize ORM', 'PostgreSQL', 'RESTful API', 'Redis'],
+    burger: 'burger_bottombun.png',
+  },
+  tools: {
+    title: 'Tools',
+    stacks: ['Agile',
+      'Heroku',
+      'Travis CI-CD',
+      'PWA',
+      'Electron',
+      'Webpack',
+      'Git',
+      'OAuth',
+      'TDD'],
+    burger: 'burger_middle.png',
+  },
 };
 
 // PROJECTS DATA
@@ -60,7 +75,7 @@ export const projectsData = [
 
 // ABOUT DATA
 export const aboutData = {
-  img: '',
+  img: 'burger_blank.png',
   paragraphOne: 'I like coding and stuff.',
   paragraphTwo: 'I like Meg.',
   paragraphThree: 'I like coffee.',

@@ -13,7 +13,7 @@ const BurgerImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 550) {
+                fixed(width: 350) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -25,7 +25,10 @@ const BurgerImg = ({ filename, alt }) => (
     render={(data) => {
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
-      if (!image) return null;
+      if (!image) {
+        // console.log("Burger Image not found")
+        return null;
+      }
 
       const imageFixed = image.node.childImageSharp.fixed;
       return <Img alt={alt} fixed={imageFixed} />;

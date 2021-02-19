@@ -42,16 +42,31 @@
         height: 100%;
       }
 
+      .burger-wrapper {
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+      }
+
     }
 
     &__info {
       display: flex;
       height: 100%;
-      justify-content: center;
+      justify-content: flex-start;
       flex-direction: column;
 
       @include respond(phone) {
         align-items: center;
+      }
+
+      h3 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+
+        .small {
+          font-size: 1.5rem;
+        }
       }
 
       &-text {

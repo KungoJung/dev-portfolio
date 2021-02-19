@@ -15,13 +15,16 @@ export const heroData = {
   cta: 'Continue',
 };
 
-// ABOUT DATA
-export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: 'I like coding and stuff.',
-  paragraphTwo: 'I like Meg.',
-  paragraphThree: 'I like coffee.',
-  resume: 'https://drive.google.com/file/d/1yyUlSIJXTM0JjixNNDW2-MyVVogcyRAQ/view?usp=sharing', // if no resume, the button will not show up
+// SKILLS DATA
+export const skillsData = {
+  base: 'burger_blank.png',
+  top: 'burger_topbun.png',
+  mid: 'burger_middle.png',
+  bot: 'burger_bottombun.png',
+  intro: '"Apps are like burgers. They\'ve got layers." -- Shrek (maybe)',
+  topSkills: [],
+  midSkills: [],
+  botSkills: [],
 };
 
 // PROJECTS DATA
@@ -55,6 +58,15 @@ export const projectsData = [
   },
 ];
 
+// ABOUT DATA
+export const aboutData = {
+  img: '',
+  paragraphOne: 'I like coding and stuff.',
+  paragraphTwo: 'I like Meg.',
+  paragraphThree: 'I like coffee.',
+  resume: 'https://drive.google.com/file/d/1yyUlSIJXTM0JjixNNDW2-MyVVogcyRAQ/view?usp=sharing', // if no resume, the button will not show up
+};
+
 // CONTACT DATA
 export const contactData = {
   cta: '',
@@ -67,23 +79,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/danielberger18/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/KungoJung',
+    },
+    {
+      id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCMGSgppCK-hp4zmeqhp7CIw',
+    },
+    {
+      id: nanoid(),
+      name: 'file',
+      url: 'https://drive.google.com/file/d/1I0QFmwSEzUM4-uGfu4jPrmLr0aSvH_MJ/view',
     },
   ],
 };

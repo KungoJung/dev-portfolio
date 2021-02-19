@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
-const AboutImg = ({ filename, alt }) => (
+const BurgerImg = ({ filename, alt }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -13,7 +13,7 @@ const AboutImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 350) {
+                fixed(width: 550) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -25,20 +25,17 @@ const AboutImg = ({ filename, alt }) => (
     render={(data) => {
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
-      if (!image) {
-        console.log("Image was not found");
-        return null;
-      }
+      if (!image) return null;
 
       const imageFixed = image.node.childImageSharp.fixed;
-      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
+      return <Img alt={alt} fixed={imageFixed} />;
     }}
   />
 );
 
-AboutImg.propTypes = {
+BurgerImg.propTypes = {
   filename: PropTypes.string,
   alt: PropTypes.string,
 };
 
-export default AboutImg;
+export default BurgerImg;

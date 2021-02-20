@@ -9,9 +9,12 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi, I'm",
-  name: 'Danny.',
-  subtitle: "I'm a full stack developer.",
+  // title: "Hi, I'm",
+  // name: 'Danny.',
+  // subtitle: "I'm a full stack developer.",
+  title: "Hi, if you're",
+  name: 'here,',
+  subtitle: 'this site is a work in progress.',
   cta: 'Continue',
 };
 
@@ -19,25 +22,41 @@ export const heroData = {
 export const skillsData = {
   frontEnd: {
     title: 'Front End',
-    stacks: ['JavaScript', 'React', 'Redux', 'Mapbox', 'Victory', 'HTML5', 'CSS3'],
+    stacks: [
+      {name: 'JavaScript', img: ''},
+      {name: 'React', img: ''},
+      {name: 'Redux', img: ''},
+      {name: 'Mapbox', img: ''},
+      {name: 'Victory', img: ''},
+      {name: 'HTML5', img: ''},
+      {name: 'CSS3', img: ''}
+    ],
     burger: 'burger_topbun.png',
   },
   backEnd: {
     title: 'Back End',
-    stacks: ['Node', 'Express', 'Sequelize ORM', 'PostgreSQL', 'RESTful API', 'Redis'],
+    stacks: [
+      {name: 'Node', img: ''},
+      {name: 'Express', img: ''},
+      {name: 'Sequelize ORM', img: ''},
+      {name: 'PostgreSQL', img: ''},
+      {name: 'RestfulAPI', img: ''},
+      {name: 'Redis', img: ''},
+    ],
     burger: 'burger_bottombun.png',
   },
   tools: {
     title: 'Tools',
-    stacks: ['Agile',
-      'Heroku',
-      'Travis CI-CD',
-      'PWA',
-      'Electron',
-      'Webpack',
-      'Git',
-      'OAuth',
-      'TDD'],
+    stacks: [
+      {name: 'Agile', img: ''},
+      {name: 'Git', img: ''},
+      {name: 'Heroku', img: ''},
+      {name: 'Travis CI-CD', img: ''},
+      {name: 'PWA', img: ''},
+      {name: 'Electron', img: ''},
+      {name: 'Webpack', img: ''},
+      {name: 'OAuth', img: ''}
+      ],
     burger: 'burger_middle.png',
   },
 };
@@ -75,11 +94,13 @@ export const projectsData = [
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'burger_blank.png',
-  paragraphOne: 'I like coding and stuff.',
-  paragraphTwo: 'I like Meg.',
-  paragraphThree: 'I like coffee.',
-  resume: 'https://drive.google.com/file/d/1yyUlSIJXTM0JjixNNDW2-MyVVogcyRAQ/view?usp=sharing', // if no resume, the button will not show up
+  // For lulz:
+  // img: 'Origami_Bernie_Meme.jpeg',
+  img: 'LinkedInPhoto.png',
+  paragraphOne: 'As lifelong musician, before tech I taught guitar and voice, ran a rehearsal studio, and booked concerts in NYC and beyond.',
+  paragraphTwo: 'In 2020, I took a leap, and trained in modern app development at Fullstack Academy. I quickly absorbed new concepts, while bringing ambitious ideas and a positive attitude to every challenge.',
+  paragraphThree: "When I'm not coding, I'm probably doing yoga, trying out a new recipe, or writing a musical parody on guitar.",
+  resume: '', // if no resume, the button will not show up
 };
 
 // CONTACT DATA

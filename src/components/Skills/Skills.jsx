@@ -62,10 +62,24 @@ const Skills = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="skills-wrapper__image">
-                <div className="burger-wrapper"
-                  onClick={() => clickBurger(frontEnd)}
-                  onMouseEnter={() => hoverBurger(backEnd)}
-                  onMouseLeave={() => hoverBurger(defaultSkills)}>
+                <div className="burger-wrapper">
+                  <div className="burger-overlay">
+                    <div
+                      onClick={() => clickBurger(frontEnd)}
+                      onMouseEnter={() => hoverBurger(frontEnd)}
+                      onMouseLeave={() => hoverBurger(defaultSkills)}
+                    className="top-overlay"></div>
+                    <div
+                      onClick={() => clickBurger(tools)}
+                      onMouseEnter={() => hoverBurger(tools)}
+                      onMouseLeave={() => hoverBurger(defaultSkills)}
+                    className="mid-overlay"></div>
+                    <div
+                      onClick={() => clickBurger(backEnd)}
+                      onMouseEnter={() => hoverBurger(backEnd)}
+                      onMouseLeave={() => hoverBurger(defaultSkills)}
+                    className="bot-overlay"></div>
+                  </div>
                   <BurgerImg alt={`image of ${burger}`} filename={burger} />
                 </div>
               </div>
@@ -85,21 +99,24 @@ const Skills = () => {
             {activeLayer.title === 'Front End' && (
               <Fade right={isDesktop} bottom={isMobile} duration={500} delay={250} distance="60px">
                 <div className="skills-wrapper__info">
-                  {frontEnd.stacks.map((skill, idx) => (<p key={idx}>{skill}</p>))}
+                  <h3 className="skills-wrapper__info-text">Front End</h3>
+                  {frontEnd.stacks.map((skill, idx) => (<p key={idx}>{skill.name}</p>))}
                 </div>
               </Fade>
             )}
             {activeLayer.title === 'Back End' && (
               <Fade right={isDesktop} bottom={isMobile} duration={500} delay={250} distance="60px">
                 <div className="skills-wrapper__info">
-                  {backEnd.stacks.map((skill, idx) => (<p key={idx}>{skill}</p>))}
+                  <h3 className="skills-wrapper__info-text">Back End</h3>
+                  {backEnd.stacks.map((skill, idx) => (<p key={idx}>{skill.name}</p>))}
                 </div>
               </Fade>
             )}
             {activeLayer.title === 'Tools' && (
               <Fade right={isDesktop} bottom={isMobile} duration={500} delay={250} distance="60px">
                 <div className="skills-wrapper__info">
-                  {tools.stacks.map((skill, idx) => (<p key={idx}>{skill}</p>))}
+                  <h3 className="skills-wrapper__info-text">Tools</h3>
+                  {tools.stacks.map((skill, idx) => (<p key={idx}>{skill.name}</p>))}
                 </div>
               </Fade>
             )}

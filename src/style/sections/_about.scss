@@ -41,6 +41,10 @@
       @include respond(tab-land) {
         height: 100%;
       }
+
+      .rounded-about {
+        border-radius: 100%;
+      }
     }
 
     &__info {

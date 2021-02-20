@@ -31,7 +31,7 @@ const AboutImg = ({ filename, alt }) => (
       }
 
       const imageFixed = image.node.childImageSharp.fixed;
-      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
+      return <Img className="rounded-about shadow-lg" alt={alt} fixed={imageFixed} />;
     }}
   />
 );

@@ -24,7 +24,7 @@ export const skillsData = {
     title: 'Front End',
     stacks: [
       {name: 'JavaScript', img: ''},
-      {name: 'React', img: ''},
+      {name: 'React', img: 'react.png'},
       {name: 'Redux', img: ''},
       {name: 'Mapbox', img: ''},
       {name: 'Victory', img: ''},
@@ -125,7 +125,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'youtube',
+      name: 'youtube-play',
       url: 'https://www.youtube.com/channel/UCMGSgppCK-hp4zmeqhp7CIw',
     },
     {

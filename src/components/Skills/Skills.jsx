@@ -2,8 +2,8 @@ import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
+import SkillList from "./SkillList";
 import BurgerImg from '../Image/BurgerImg';
-import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 const defaultSkills = {
@@ -99,24 +99,24 @@ const Skills = () => {
             {activeLayer.title === 'Front End' && (
               <Fade right={isDesktop} bottom={isMobile} duration={500} delay={250} distance="60px">
                 <div className="skills-wrapper__info">
-                  <h3 className="skills-wrapper__info-text">Front End</h3>
-                  {frontEnd.stacks.map((skill, idx) => (<p key={idx}>{skill.name}</p>))}
+                  <h3 className="skills-wrapper__info-text__center">Front End</h3>
+                  <SkillList skills={frontEnd.stacks} />
                 </div>
               </Fade>
             )}
             {activeLayer.title === 'Back End' && (
               <Fade right={isDesktop} bottom={isMobile} duration={500} delay={250} distance="60px">
                 <div className="skills-wrapper__info">
-                  <h3 className="skills-wrapper__info-text">Back End</h3>
-                  {backEnd.stacks.map((skill, idx) => (<p key={idx}>{skill.name}</p>))}
+                  <h3 className="skills-wrapper__info-text__center">Back End</h3>
+                  <SkillList skills={backEnd.stacks} />
                 </div>
               </Fade>
             )}
             {activeLayer.title === 'Tools' && (
               <Fade right={isDesktop} bottom={isMobile} duration={500} delay={250} distance="60px">
                 <div className="skills-wrapper__info">
-                  <h3 className="skills-wrapper__info-text">Tools</h3>
-                  {tools.stacks.map((skill, idx) => (<p key={idx}>{skill.name}</p>))}
+                  <h3 className="skills-wrapper__info-text__center">Tools</h3>
+                  <SkillList skills={tools.stacks} />
                 </div>
               </Fade>
             )}

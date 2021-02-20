@@ -47,9 +47,7 @@
         .burger-overlay {
           position:absolute;
           top: 0;
-          // left: 0;
           height: 316px;
-          // width: 100%;
           width: 350px;
           cursor: pointer;
           z-index: 3;
@@ -58,19 +56,16 @@
             z-index: 6;
             width: 100%;
             height: 40%;
-            // background-color: rgba(250, 128, 114, 0.502);
           }
           .mid-overlay {
             z-index: 6;
             width: 100%;
             height: 35%;
-            // background-color: rgba(114, 184, 250, 0.502);
           }
           .bot-overlay {
             z-index: 6;
             width: 100%;
             height: 25%;
-            // background-color: rgba(250, 230, 114, 0.502);
           }
         }
       }
@@ -94,6 +89,48 @@
         .small {
           font-size: 1.5rem;
         }
+      }
+
+      .skill-list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        @include respond(phone) {
+          // flex-direction: column;
+          justify-content: center;
+        }
+
+        .ind-skill {
+          display: flex;
+          flex-direction: column;
+          font-size: 1.6rem;
+          margin: 1.5rem;
+
+          @include respond(phone) {
+            flex-direction: row;
+            justify-content: flex-start;
+            width: 42%;
+            align-items: flex-end;
+          }
+
+          .skill-img-container {
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            padding-bottom: 1rem;
+
+            @include respond(phone) {
+              padding-bottom: 0;
+              padding-right: 1rem;
+            }
+          }
+        }
+
       }
 
       &-text {

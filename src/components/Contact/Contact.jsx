@@ -17,22 +17,13 @@ const Contact = () => {
             {/* <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p> */}
-            <form name="contact" method="POST" action="POST" data-netlify="true" attribute="netlify-honeypot='bot-field'">
-              <div className="input-row">
-                <label>Your Name: <input type="text" name="name" /></label>
-              </div>
-              <div className="input-row">
-                <label>Your Email: <input type="email" name="email" /></label>
-              </div>
-              <div className="input-row">
-                <label>Message: <textarea name="message"></textarea></label>
-              </div>
-              <div className="button-row">
-                <button type="submit">Send</button>
-              </div>
-              <div className="recaptcha">
-                <div data-netlify-recaptcha="true"></div>
-              </div>
+            <form name="contact" method="POST" data-netlify="true" attribute="netlify-honeypot='bot-field'">
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
+              <label>Your Name: <input type="text" name="name" /></label>
+              <label>Your Email: <input type="email" name="email" /></label>
+              <label>Message: <textarea name="message"></textarea></label>
+              <button type="submit">Send</button>
             </form>
             {/* <a
               target="_blank"

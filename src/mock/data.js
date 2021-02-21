@@ -23,39 +23,39 @@ export const skillsData = {
   frontEnd: {
     title: 'Front End',
     stacks: [
-      {name: 'JavaScript', img: ''},
+      {name: 'JavaScript', img: 'javascript.png'},
       {name: 'React', img: 'react.png'},
-      {name: 'Redux', img: ''},
-      {name: 'Mapbox', img: ''},
-      {name: 'Victory', img: ''},
-      {name: 'HTML5', img: ''},
-      {name: 'CSS3', img: ''}
+      {name: 'Redux', img: 'redux.png'},
+      {name: 'Mapbox', img: 'mapbox.png'},
+      {name: 'Victory', img: 'victory.png'},
+      {name: 'HTML5', img: 'html5.png'},
+      {name: 'CSS3', img: 'css.png'}
     ],
     burger: 'burger_topbun.png',
   },
   backEnd: {
     title: 'Back End',
     stacks: [
-      {name: 'Node', img: ''},
-      {name: 'Express', img: ''},
-      {name: 'Sequelize ORM', img: ''},
-      {name: 'PostgreSQL', img: ''},
-      {name: 'RestfulAPI', img: ''},
-      {name: 'Redis', img: ''},
+      {name: 'Node', img: 'node.png'},
+      {name: 'Express', img: 'express.png'},
+      {name: 'Sequelize ORM', img: 'sequelize.png'},
+      {name: 'PostgreSQL', img: 'pg.png'},
+      {name: 'RESTful API', img: 'restfulapi.png'},
+      {name: 'Redis', img: 'redis.webp'},
     ],
     burger: 'burger_bottombun.png',
   },
   tools: {
     title: 'Tools',
     stacks: [
-      {name: 'Agile', img: ''},
-      {name: 'Git', img: ''},
-      {name: 'Heroku', img: ''},
-      {name: 'Travis CI-CD', img: ''},
-      {name: 'PWA', img: ''},
-      {name: 'Electron', img: ''},
-      {name: 'Webpack', img: ''},
-      {name: 'OAuth', img: ''}
+      {name: 'Agile', img: 'agile3.png'},
+      {name: 'Git', img: 'git.png'},
+      {name: 'Heroku', img: 'heroku.png'},
+      {name: 'Travis CI-CD', img: 'travis2.png'},
+      {name: 'PWA', img: 'pwa2.png'},
+      {name: 'Electron', img: 'electron.png'},
+      {name: 'Webpack', img: 'module.png'},
+      {name: 'OAuth', img: 'id.png'}
       ],
     burger: 'burger_middle.png',
   },
@@ -98,8 +98,8 @@ export const aboutData = {
   // img: 'Origami_Bernie_Meme.jpeg',
   img: 'LinkedInPhoto.png',
   paragraphOne: 'As lifelong musician, before tech I taught guitar and voice, ran a rehearsal studio, and booked concerts in NYC and beyond.',
-  paragraphTwo: 'In 2020, I took a leap, and trained in modern app development at Fullstack Academy. I quickly absorbed new concepts, while bringing ambitious ideas and a positive attitude to every challenge.',
-  paragraphThree: "When I'm not coding, I'm probably doing yoga, trying out a new recipe, or writing a musical parody on guitar.",
+  paragraphTwo: 'In 2020, I took a leap and trained in modern app development at Fullstack Academy. I quickly absorbed new concepts, while bringing ambitious ideas and a positive attitude to every challenge.',
+  paragraphThree: "When I'm not coding, I'm usually doing yoga, testing out a new recipe, or writing a musical parody on guitar.",
   resume: '', // if no resume, the button will not show up
 };
 

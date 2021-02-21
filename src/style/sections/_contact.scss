@@ -37,22 +37,42 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      font-size: 1.6rem;
 
-      label: {
-        width: 100%;
+      .form-label {
+        width: 50vw;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
-        input: {
-          width: 100%;
+        @include respond(tab-land) {
+          width: 70vw;
         }
-        textarea: {
-          width: 100%;
+        @include respond(phone) {
+          width: 90vw;
         }
 
-      }
-
-      .recaptcha {
-        height: 100px;
-        width: 100px;
+        input {
+          border-radius:  5px;
+          width: 40vw;
+          @include respond(tab-land) {
+            width: 50vw;
+          }
+          @include respond(phone) {
+            width: 70vw;
+          }
+        }
+        textarea {
+          border-radius:  5px;
+          width: 40vw;
+          @include respond(tab-land) {
+            width: 50vw;
+          }
+          @include respond(phone) {
+            width: 70vw;
+          }
+        }
       }
     }
   }

@@ -18,19 +18,19 @@ const Contact = () => {
               {cta || 'Would you like to work with me? Awesome!'}
             </p> */}
             <form name="contact" method="POST" action="POST" data-netlify="true" attribute="netlify-honeypot='bot-field'">
-              <p>
+              <div className="input-row">
                 <label>Your Name: <input type="text" name="name" /></label>
-              </p>
-              <p>
+              </div>
+              <div className="input-row">
                 <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
+              </div>
+              <div className="input-row">
                 <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <p>
+              </div>
+              <div className="button-row">
                 <button type="submit">Send</button>
-              </p>
-              <div>
+              </div>
+              <div className="recaptcha">
                 <div data-netlify-recaptcha="true"></div>
               </div>
             </form>

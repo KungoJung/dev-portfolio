@@ -14,19 +14,22 @@
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   padding-bottom: 10%;
 
-  @include respond(phone) {
-    margin-top: 15rem;
-  }
-
   @include respond(tab-land) {
+    margin-top: 10rem;
     height: 100%;
     -webkit-clip-path: none;
     clip-path: none;
   }
 
+  @include respond(phone) {
+    margin-top: 15rem;
+  }
+
   .about-wrapper {
-    @include respond(phone) {
-      padding-bottom: 5rem;
+    padding-bottom: 12rem;
+
+    @include respond(tab-land) {
+      padding-bottom: 0;
     }
 
     &__image {
@@ -36,7 +39,7 @@
       justify-content: center;
 
       @include respond(tab-port) {
-        padding-bottom: 6.4rem;
+        padding-bottom: 4rem;
       }
       @include respond(tab-land) {
         height: 100%;

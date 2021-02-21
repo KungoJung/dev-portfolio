@@ -97,7 +97,7 @@ export const aboutData = {
   // For lulz:
   // img: 'Origami_Bernie_Meme.jpeg',
   img: 'LinkedInPhoto.png',
-  paragraphOne: 'As lifelong musician, before tech I taught guitar and voice, ran a rehearsal studio, and booked concerts in NYC and beyond.',
+  paragraphOne: 'As a lifelong musician, before tech I taught guitar and voice, ran a rehearsal studio, and booked concerts in NYC and beyond.',
   paragraphTwo: 'In 2020, I took a leap and trained in modern app development at Fullstack Academy. I quickly absorbed new concepts, while bringing ambitious ideas and a positive attitude to every challenge.',
   paragraphThree: "When I'm not coding, I'm usually doing yoga, testing out a new recipe, or writing a musical parody on guitar.",
   resume: '', // if no resume, the button will not show up

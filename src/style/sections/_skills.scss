@@ -26,7 +26,7 @@
 
   .skills-wrapper {
     @include respond(phone) {
-      padding-bottom: 5rem;
+      padding-bottom: 2rem;
     }
 
     &__image {
@@ -80,6 +80,7 @@
 
       @include respond(phone) {
         align-items: center;
+        margin-top: -2rem;
       }
 
       h3 {
@@ -98,7 +99,6 @@
         flex-wrap: wrap;
 
         @include respond(phone) {
-          // flex-direction: column;
           justify-content: center;
         }
 
@@ -116,8 +116,8 @@
           }
 
           .skill-img-container {
-            height: 50px;
-            width: 50px;
+            height: 60px;
+            width: 60px;
             display: flex;
             justify-content: center;
             align-items: center;

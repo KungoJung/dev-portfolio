@@ -13,7 +13,7 @@ const Icon = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 40) {
+                fixed(width: 55) {
                   ...GatsbyImageSharpFixed
                 }
               }

@@ -89,7 +89,7 @@ const Skills = () => {
             {activeLayer.title === 'None' && (
               <Fade left={isDesktop} bottom={isMobile} duration={500} delay={250} distance="30px">
                 <div className="skills-wrapper__info">
-                  <h3 className="skills-wrapper__info-text">"Apps are like burgers. They've got layers." - Shrek <span className="small">(maybe)</span></h3>
+                  <h3 className="skills-wrapper__info-text">"Apps are like burgers. They've got layers."   - Shrek <span className="small">(rumored)</span></h3>
                   <p className="skills-wrapper__info-text">
                     Select a layer on the burger to show stack skills.
                   </p>

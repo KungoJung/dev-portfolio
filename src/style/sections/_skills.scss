@@ -8,20 +8,21 @@
   color: $white-color;
   height: 100%;
   border-top: 0px;
-  padding-top: 5%;
+  padding-top: 8%;
 
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   padding-bottom: 15%;
 
   @include respond(tab-land) {
+    padding-top: 12%;
     height: 100%;
     -webkit-clip-path: none;
     clip-path: none;
   }
 
   @include respond(phone) {
-    padding-top: 5rem;
+    padding-top: 18%;
   }
 
   .skills-wrapper {
@@ -97,6 +98,7 @@
         height: 100%;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
 
         @include respond(phone) {
           justify-content: center;

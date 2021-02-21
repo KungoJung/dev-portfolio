@@ -105,7 +105,7 @@ export const aboutData = {
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Get In Touch!',
   btn: '',
   email: '',
 };

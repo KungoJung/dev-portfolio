@@ -8,7 +8,7 @@
   color: $white-color;
   height: 100%;
   border-top: 0px;
-  padding-top: 10%;
+  padding-top: 13%;
 
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
@@ -21,8 +21,12 @@
     clip-path: none;
   }
 
+  @include respond(tab-port) {
+    padding-top: 20%;
+  }
+
   @include respond(phone) {
-    margin-top: 15rem;
+    margin-top: 14rem;
   }
 
   .about-wrapper {
@@ -63,8 +67,8 @@
       &-text {
         text-align: left;
 
-        @include respond(tab-port) {
-          font-size: 1.5rem;
+        @include respond(tab-land) {
+          font-size: 1.6rem;
           text-align: center;
         }
         @include respond(phone) {

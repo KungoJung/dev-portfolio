@@ -11,7 +11,9 @@
 
   @include respond(tab-land) {
     margin-top: 0;
-    padding-top: 5rem;
+    padding-top: 10rem;
+    -webkit-clip-path: none;
+    clip-path: none;
   }
 
   .project-wrapper {

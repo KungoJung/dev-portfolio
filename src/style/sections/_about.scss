@@ -8,21 +8,19 @@
   color: $white-color;
   height: 100%;
   border-top: 0px;
-  padding-top: 13%;
+  padding: 18rem 0 13rem 0;
+  margin-bottom: -15rem;
 
-  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  padding-bottom: 10%;
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 80%, 0 100%);
 
   @include respond(tab-land) {
-    margin-top: 10rem;
+    margin-top: 5rem;
+    margin-bottom: none;
+    padding: 10rem 0 7rem;
     height: 100%;
     -webkit-clip-path: none;
     clip-path: none;
-  }
-
-  @include respond(tab-port) {
-    padding-top: 20%;
   }
 
   @include respond(phone) {
@@ -30,10 +28,10 @@
   }
 
   .about-wrapper {
-    padding-bottom: 12rem;
+    padding-bottom: 10rem;
 
     @include respond(tab-land) {
-      padding-bottom: 0;
+      padding-bottom: 3rem;
     }
 
     &__image {

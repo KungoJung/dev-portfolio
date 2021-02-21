@@ -27,7 +27,7 @@ const Contact = () => {
               </label>
               <label className="form-label">
                 Message:
-                <textarea name="message"></textarea>
+                <textarea name="message" rows="4"></textarea>
               </label>
               <button className="cta-btn cta-btn--hero" type="submit">
                 Send

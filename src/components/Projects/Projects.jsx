@@ -56,10 +56,13 @@ const Projects = () => {
                             )
                           })}
                         </div>
-                        <p className="bold">{contributors ? "Collaborators: " : "Solo Project"}<span className="italics">{contributors && contributors}</span></p>
+                        <p className="bold">
+                          {contributors ? "Collaborators: " : "Solo Project"}
+                          <span className="italics">{contributors && contributors}</span>
+                        </p>
                         <p>{info}</p>
                         {note && (
-                          <p className="italics note">Note: {note}</p>
+                          <p className='italics note'>Note: {note}</p>
                         )}
                       </div>
                       {url && (

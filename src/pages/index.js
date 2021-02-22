@@ -20,7 +20,7 @@ export default () => {
         <meta name="language" content="English" />
         <meta property="og:title" content="Danny Berger: Full Stack Developer" />
         <meta property="og:description" content="Full Stack Software Mobile and Web Developer" />
-        <meta property="og:image" content="/screen_shot.png" />
+        <meta property="og:image" content="https://www.danny-berger.dev/screen_shot.png" />
         <meta property="og:url" content="https://www.danny-berger.dev/" />
       </Helmet>
       <App />

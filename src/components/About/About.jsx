@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
+import AltAboutImg from '../Image/AltAboutImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
@@ -29,8 +30,11 @@ const About = () => {
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
-              <div className="about-wrapper__image">
+              {/* <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
+              </div> */}
+              <div className="about-wrapper__image">
+                <AltAboutImg alt="profile picture" filename={img} />
               </div>
             </Fade>
           </Col>

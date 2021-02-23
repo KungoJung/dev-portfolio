@@ -18,7 +18,10 @@ My portfolio site was built from a Gatsby template, where I took the opportunity
 - Gatsby project structure
 - Deployed a site to Netlify
 
-<img src="https://github.com/KungoJung/dev-portfolio/blob/main/src/images/burger_blank.png?raw=true" alt="Burger" width="400px" />
+<h2 align="center">
+    <img src="https://github.com/KungoJung/dev-portfolio/blob/main/src/images/burger_blank.png?raw=true" alt="Burger" width="400px" />
+    <br>
+</h2>
 
 ### Thanks
 Thanks to **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev) for designing this fantastic template. Here's how it looked before I got to it:

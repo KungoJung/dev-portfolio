@@ -1,7 +1,7 @@
 # Developer Portfolio Website ⚡️
 
 ### Welcome!
-My portfolio site was built to show my projects and connect with future employers and clients. I built the site from a Gatsby template, where I took the opportunity to thoroughly inspect the source code. It was my first time working with Gatsby, SaSS, and GraphQL, so I noted the original internal file structure to see how an experienced dev sets up front-end data flow for a static site. Short version: I was really impressed. 
+My portfolio site was built from a Gatsby template, where I took the opportunity to thoroughly inspect the source code. It was my first time working with Gatsby, SaSS, and GraphQL, so learned how a more experienced dev sets up front-end data flow for a static site. 
 
 ### What I Changed
 - Added external Link buttons to the top and bottom of the site

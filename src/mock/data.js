@@ -86,6 +86,7 @@ export const projectsData = [
     info2: '',
     contributors: 'David Huang, Josie Chen, Emmanuel Vazquez',
     stack: ['React', 'Redux', 'Node/Express', 'PostgreSQL', 'Sequelize', 'Passport', 'Stripe API', 'Nodemailer API'],
+    note: 'App hosted on free Heroku server. Please allow 10-15s to spin up.',
     url: 'https://yodaddy.herokuapp.com/',
     repo: 'https://github.com/FSA-2009-Revenge-of-the-Shoppers/Grace-Shopper', // if no repo, the button will not show up
   },

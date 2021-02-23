@@ -1,7 +1,7 @@
-# Developer Portfolio Website ⚡️
+# <a href="https://www.danny-berger.dev/">My Developer Portfolio Website</a> ⚡️
 
 ### Welcome!
-My portfolio site was built from a Gatsby template, where I took the opportunity to thoroughly inspect the source code. It was my first time working with Gatsby, SaSS, and GraphQL, so learned how a more experienced dev sets up front-end data flow for a static site. 
+My portfolio site was built from a Gatsby template, so I took notes on how a more experienced dev sets up front-end data flow for a static site. It was also my first time working with Gatsby, SaSS, and GraphQL.
 
 ### What I Changed
 - Added external Link buttons to the top and bottom of the site

@@ -19,7 +19,9 @@ My portfolio site was built from a Gatsby template, so I took notes on how a mor
 - Deployed a site to Netlify
 
 <h2 align="center">
-    <img src="https://github.com/KungoJung/dev-portfolio/blob/main/src/images/burger_blank.png?raw=true" alt="Burger" width="400px" />
+    <a href="https://www.danny-berger.dev/">
+        <img src="https://github.com/KungoJung/dev-portfolio/blob/main/src/images/burger_blank.png?raw=true" alt="Burger" width="400px" />
+    </a>
     <br>
 </h2>
 

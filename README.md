@@ -1,6 +1,6 @@
 # Developer Portfolio Website ⚡️
 
-<img src="https://github.com/kungojung/dev-portfolio/src/images/burger_blank.png" alt="Burger" width="600px" />
+<img src="https://github.com/KungoJung/dev-portfolio/src/images/burger_blank.png" alt="Burger" width="600px" />
 
 ### Thanks
 Thanks to **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev) for designing this fantastic template. Here's how it looked before I got to it:

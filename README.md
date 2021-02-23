@@ -1,11 +1,29 @@
 # Developer Portfolio Website ⚡️
 
+### Welcome!
+My portfolio site was built to show my projects and connect with future employers and clients. I built the site from a Gatsby template, where I took the opportunity to thoroughly inspect the source code. It was my first time working with Gatsby, SaSS, and GraphQL, so I noted the original internal file structure to see how an experienced dev sets up front-end data flow for a static site. Short version: I was really impressed. 
+
+### What I Changed
+- Added external Link buttons to the top and bottom of the site
+- Added Nav buttons to quickly get to your desired section
+- Added a new section for skills and changed section order (this messed with the original formatting quite a bit)
+- Built a Contact Form and integrated email notifications through Netlify
+- Swapped project images for iframes with project demo videos on YouTube
+- Skills feature: I built a component that renders a different image of a burger depending on where on the burger the cursor hovers or clicks. The burger images were created in photoshop. I built one div with the burger nested inside, that has a sibling div (position: absolute, same height and width as the img) with 3 child divs each taking up about one third of that div's height. Those three divs had event listeners that triggered state change in React, which rendered a new burger img and skills set. Each skills set had to be a different component to trigger the animation. My favorite part of the site. 😊 🍔
+
+
+### What I Learned
+- Created CSS Variables in SaSS
+- Learned how to use clip-path in CSS
+- Gatsby project structure
+- Deployed a site to Netlify
+
 <img src="https://github.com/KungoJung/dev-portfolio/blob/main/src/images/burger_blank.png?raw=true" alt="Burger" width="400px" />
 
 ### Thanks
 Thanks to **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev) for designing this fantastic template. Here's how it looked before I got to it:
 
-<h4>Here's what the template looked like before, if you're curious:</h4>
+#### Here's what the template looked like before, if you're curious:
 <h2 align="center">
   <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
   <br>

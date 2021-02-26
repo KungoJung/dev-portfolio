@@ -19,15 +19,15 @@ const Contact = () => {
               <input type="hidden" name="form-name" value="contact" />
               <label className="form-label">
                 Name:
-                <input className="form-input" type="text" name="name" />
+                <input className="form-input" type="text" name="name" required />
               </label>
               <label className="form-label">
                 Email:
-                <input type="email" name="email" />
+                <input type="email" name="email" required />
               </label>
               <label className="form-label">
                 Message:
-                <textarea name="message" rows="6"></textarea>
+                <textarea name="message" rows="6" required ></textarea>
               </label>
               <button className="cta-btn cta-btn--hero" type="submit">
                 Send

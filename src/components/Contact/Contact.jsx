@@ -19,7 +19,7 @@ const Contact = () => {
               <input type="hidden" name="form-name" value="contact" />
               <label className="form-label">
                 Name:
-                <input className="form-input" type="text" name="name" />
+                <input className="form-input" type="text" name="name" required />
               </label>
               <label className="form-label">
                 Email:

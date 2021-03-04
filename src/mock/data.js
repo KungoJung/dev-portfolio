@@ -72,7 +72,7 @@ export const projectsData = [
     info: 'An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.',
     contributors: 'Agne Urbaityte, Peter Boustani',
     stack: ['PWA', 'React', 'Redux', 'Mapbox', 'Victory', 'Node/Express', 'Redis', 'Adzuna API', 'Google Places API'],
-    note: 'App hosted on free Heroku server. Please allow {<strong>}15-30s{</strong>} to spin up. We have limited Adzuna API queries. If app causes 500 error, please select state: California; filter: Javascript, to explore app with cached dummy data.',
+    note: 'App hosted on free Heroku server. Please allow 15-30s to spin up. We have limited Adzuna API queries. If app causes 500 error, please select state: California; filter: Javascript, to explore app with cached dummy data.',
     url: 'https://javascript-jobs-usa.herokuapp.com/',
     repo: 'https://github.com/2009-fsa-cs-ashes-archers/JobMapApp', // if no repo, the button will not show up
   },

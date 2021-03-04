@@ -22,11 +22,11 @@ const Contact = () => {
                 <input className="form-input" type="text" name="name" required />
               </label>
               <label className="form-label">
-                Email:
+                *Email:
                 <input required type="email" name="email" />
               </label>
               <label className="form-label">
-                Message:
+                *Message:
                 <textarea required name="message" rows="6"></textarea>
               </label>
               <button className="cta-btn cta-btn--hero" type="submit">

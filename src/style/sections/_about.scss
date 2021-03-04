@@ -62,6 +62,12 @@
         align-items: center;
       }
 
+      .d-flex {
+        @include respond(tab-land) {
+          justify-content: center;
+        }
+      }
+
       &-text {
         text-align: left;
 

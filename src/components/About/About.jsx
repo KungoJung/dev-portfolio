@@ -29,7 +29,7 @@ const About = () => {
         <Title title="About" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade bottom duration={750} delay={500} distance="30px">
               {/* <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div> */}
@@ -39,7 +39,7 @@ const About = () => {
             </Fade>
           </Col>
           <Col md={6} sm={12}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={750} delay={500} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>

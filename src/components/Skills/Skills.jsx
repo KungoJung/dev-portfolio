@@ -21,7 +21,7 @@ const Skills = () => {
   const [hoverLayer, setHoverLayer] = useState(null);
   const [clickLayer, setClickLayer] = useState(null);
   const [activeLayer, setActiveLayer] = useState(defaultSkills);
-  const [activeSkills, setActiveSkills] = useState(null);
+  // const [activeSkills, setActiveSkills] = useState(null);
   const [burger, setBurger] = useState(defaultSkills.burger);
 
   useEffect(() => {
@@ -60,7 +60,7 @@ const Skills = () => {
         <Title title="Skills" />
         <Row className="skills-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade bottom duration={750} delay={500} distance="30px">
               <div className="skills-wrapper__image">
                 <div className="burger-wrapper">
                   <div className="burger-overlay">

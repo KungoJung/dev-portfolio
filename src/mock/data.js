@@ -144,7 +144,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'file',
-      url: 'https://drive.google.com/file/d/1Ucbc9WeXYBix_JGhOfttoUOwsZpq_Isq/view?usp=sharing',
+      url: aboutData.resume,
     },
   ],
 };

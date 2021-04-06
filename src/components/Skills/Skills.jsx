@@ -21,7 +21,6 @@ const Skills = () => {
   const [hoverLayer, setHoverLayer] = useState(null);
   const [clickLayer, setClickLayer] = useState(null);
   const [activeLayer, setActiveLayer] = useState(defaultSkills);
-  // const [activeSkills, setActiveSkills] = useState(null);
   const [burger, setBurger] = useState(defaultSkills.burger);
 
   useEffect(() => {
@@ -39,8 +38,6 @@ const Skills = () => {
     setBurger(activeLayer.burger);
   }, [skills, activeLayer]);
 
-  // These two functions will become more complex,
-  // receiving events with the exact part of the burger clicked.
   const clickBurger = lay => {
     setClickLayer(lay);
   };
@@ -48,8 +45,9 @@ const Skills = () => {
     setHoverLayer(lay);
   };
 
+  // clickLayer takes priority over hoverLayer
   useEffect(() => {
-    const layer = clickLayer ? clickLayer : hoverLayer;
+    const layer = clickLayer || hoverLayer;
     if (!layer) setActiveLayer(defaultSkills);
     else setActiveLayer(layer);
   }, [hoverLayer, clickLayer]);

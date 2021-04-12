@@ -98,7 +98,7 @@ export const projectsData = [
     videoUrl: 'https://youtu.be/S6KfSPJwGYQ',
     info: "Expense tracker built for an offline desktop user. I took on the challenge of incorporating an all new technology stack (except for React) that I had not used before.",
     info2: '',
-    stack: ['Electron', 'React', 'Victory', 'Material-UI', 'React-Bootstrap', 'JSON'],
+    stack: ['Electron', 'React', 'Victory', 'React-Bootstrap', 'JSON'],
     url: '', // if no url, the button will not show up
     repo: 'https://github.com/KungoJung/expense-tracker-electron', // if no repo, the button will not show up
   },

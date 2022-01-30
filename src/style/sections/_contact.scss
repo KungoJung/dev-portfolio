@@ -44,42 +44,19 @@
 
       button {
         font-size: 2.4rem;
+        margin-top: 1rem;
       }
 
-      .form-label {
-        width: 45vw;
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+      .input {
+        max-width: 800px;
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 2px;
+      }
 
-        @include respond(tab-land) {
-          width: 70vw;
-        }
-        @include respond(phone) {
-          width: 90vw;
-        }
-
-        input {
-          border-radius:  5px;
-          width: 35vw;
-          @include respond(tab-land) {
-            width: 50vw;
-          }
-          @include respond(phone) {
-            width: 70vw;
-          }
-        }
-        textarea {
-          border-radius:  5px;
-          width: 35vw;
-          @include respond(tab-land) {
-            width: 50vw;
-          }
-          @include respond(phone) {
-            width: 70vw;
-          }
-        }
+      input, textarea {
+        padding: 8px 12px;
+        border-width: 1px;
       }
     }
   }

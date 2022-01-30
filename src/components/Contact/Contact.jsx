@@ -1,34 +1,36 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
-import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
 const Contact = () => {
-  // const { contact } = useContext(PortfolioContext);
-  // const { cta, btn, email } = contact;
-
   return (
     <section id="contact">
       <Container>
         <Title title="Contact" />
         <Fade bottom duration={750} delay={500} distance="30px">
           <div className="contact-wrapper">
-            <form name="contact" method="POST" data-netlify="true" attribute="netlify-honeypot='bot-field'">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              attribute="netlify-honeypot='bot-field'"
+            >
               <input type="hidden" name="bot-field" />
               <input type="hidden" name="form-name" value="contact" />
-              <label className="form-label">
-                *Name:
-                <input className="form-input" type="text" name="name" required />
-              </label>
-              <label className="form-label">
-                *Email:
-                <input required type="email" name="email" />
-              </label>
-              <label className="form-label">
-                *Message:
-                <textarea required name="message" rows="6"></textarea>
-              </label>
+
+              <input
+                className="form-input input"
+                type="text"
+                name="name"
+                required
+                placeholder="Name"
+              />
+
+              <input required type="email" name="email" className=" input" placeholder="Email" />
+
+              <textarea required name="message" rows="6" className=" input" placeholder="Message" />
+
               <button className="cta-btn cta-btn--hero" type="submit">
                 Send
               </button>

@@ -50,20 +50,20 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{title}</h3>
                       <div>
                         <div className="tech-stack">
-                          {stack.map((tech, idx) => {
+                          {stack.map((tech) => {
                             return (
-                              <div className="tech" key={idx}>{tech}</div>
-                            )
+                              <div className="tech" key={`stack-${tech}`}>
+                                {tech}
+                              </div>
+                            );
                           })}
                         </div>
                         <p className="bold">
-                          {contributors ? "Collaborators: " : "Solo Project"}
+                          {contributors ? 'Collaborators: ' : 'Solo Project'}
                           <span className="italics">{contributors && contributors}</span>
                         </p>
                         <p>{info}</p>
-                        {note && (
-                          <p className='italics note'>Note: {note}</p>
-                        )}
+                        {note && <p className="italics note">Note: {note}</p>}
                       </div>
                       {url && (
                         <a
